@@ -4,12 +4,15 @@ import "../styles/Slider.css";
 import "../styles/Topbar.css";
 import "../styles/Header.css";
 import "../styles/Blog.css";
+import "../styles/about_me.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "tailwindcss/tailwind.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { SSRProvider } from "react-bootstrap";
 import NextNProgress from "nextjs-progressbar";
+
+
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { Fragment, useEffect } from "react";
