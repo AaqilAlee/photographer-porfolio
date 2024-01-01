@@ -88,8 +88,9 @@ const AboutMe = () => {
                   <Link
                     data-aos="fade-up"
                     data-aos-duration="2000"
-                    href="#"
+                    href="https://unsplash.com/@mhphotography13"
                     className="me-3"
+                    target="_blank"
                   >
                     <div className="social_link_mn d-flex justify-content-center align-items-center">
                       <div className="social_link m-0">

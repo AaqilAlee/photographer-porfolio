@@ -5,6 +5,8 @@ import "../styles/Topbar.css";
 import "../styles/Header.css";
 import "../styles/Blog.css";
 import "../styles/about_me.css";
+import "../styles/gallery.css";
+import "../styles/title.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "tailwindcss/tailwind.css";
 import "slick-carousel/slick/slick.css";

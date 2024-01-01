@@ -1,0 +1,21 @@
+.work_gallery img {
+  object-fit: cover;
+}
+.see_more_photo {
+  padding: 12px 25px;
+  border-radius: 5px;
+  background-color: var(--theme-color);
+  color: white;
+  font-family: "Montserrat", sans-serif !important;
+  transition: all linear 0.3s;
+}
+.see_more_photo:hover {
+  color: white;
+
+  background: rgb(40, 184, 216);
+  background: linear-gradient(
+    135deg,
+    rgba(40, 184, 216, 1) 0%,
+    rgba(102, 102, 102, 1) 100%
+  );
+}

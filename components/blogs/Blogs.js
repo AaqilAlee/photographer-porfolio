@@ -2,6 +2,7 @@ import Link from "next/link";
 import React from "react";
 import { Container } from "react-bootstrap";
 import Slider from "react-slick";
+import SectionTitle from "../sectionTitle/SectionTitle";
 
 const Blogs = () => {
   var settings = {
@@ -49,9 +50,8 @@ const Blogs = () => {
       <Container>
         <div className="py-5">
           <div className="">
-            <div className="section-title text-center">
-              <h3 className="font-24 fw-bold">my blogs</h3>
-            </div>
+            <SectionTitle title="my blogs" subtitle="my blogs"/>
+           
             <div className="row blog-posts">
               <Slider {...settings}>
                 <div className="col-sm-4">
