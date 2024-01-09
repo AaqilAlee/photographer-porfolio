@@ -325,7 +325,7 @@ const HeaderOld = () => {
 
                 <Nav.Link
                   as={Link}
-                  href="/"
+                  href="#blog"
                   className="d-flex align-items-center font-16 my-2 text-light"
                 >
                   <span className="text-capitalize position-relative after_border pb-2 sticky_text_color">

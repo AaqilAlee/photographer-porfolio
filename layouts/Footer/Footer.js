@@ -58,7 +58,7 @@ const Footer = () => {
         <Container>
           <div className="d-flex justify-content-center py-3">
             <div className="">
-              <p className="fw-semibold m-0">© 2023 MN | All rights reserved</p>
+              <p className="fw-semibold m-0">© 2024 MN | All rights reserved</p>
             </div>
           </div>
         </Container>

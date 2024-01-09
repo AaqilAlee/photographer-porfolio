@@ -2462,3 +2462,32 @@ figure .fli-link {
   width: 100%;
   max-width: 100%;
 }
+.blog-posts .slick-prev::before {
+  position: absolute;
+  content: ""!important;
+  left: 10px;
+  transform: rotate(180deg);
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-image: url(../public/arrow.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 0%;
+}
+.blog-posts .slick-next::after {
+  position: absolute;
+  content: ""!important;
+  display: block;
+  left: -5px;
+  width: 20px;
+  height: 20px;
+  background-image: url(../public/arrow.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 0%;
+}
+.slick-next:before {
+  /* content: ''!important; */
+  display: none;
+}

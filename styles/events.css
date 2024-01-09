@@ -1,0 +1,42 @@
+.events {
+  background: rgb(229, 234, 237);
+  background: linear-gradient(
+    132deg,
+    rgba(229, 234, 237, 1) 0%,
+    rgba(254, 254, 255, 1) 100%
+  );
+  border-radius: 10px;
+}
+.event_list {
+  background: rgb(229, 234, 237);
+  background: linear-gradient(
+    132deg,
+    rgba(229, 234, 237, 1) 0%,
+    rgba(254, 254, 255, 1) 100%
+  );
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.event_card{
+  background: rgb(229, 234, 237);
+  background: linear-gradient(
+    132deg,
+    rgba(229, 234, 237, 1) 0%,
+    rgba(254, 254, 255, 1) 100%
+  );
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.event_card_img{
+  width: 100%;
+  height: 150px!important;
+  object-fit: cover;
+}
+.event_card_title{
+  color: #666;
+  font-weight: 500;
+  transition: all linear 0.3s;
+}
+.event_card_link:hover .event_card_title{
+  color: var(--theme-color);
+}

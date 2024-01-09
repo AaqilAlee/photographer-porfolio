@@ -35,6 +35,7 @@ body {
   background-color: #ECF0F3!important;
   overflow-x: hidden !important;
   font-family: 'Montserrat', sans-serif;
+  scroll-behavior: smooth;
 }
 
 body.modal-open {
@@ -95,7 +96,7 @@ ul,li{
   font-size: 48px !important;
 }
 
-.font-Mont {
+.font-mont {
   font-family: 'Montserrat', sans-serif !important;
 }
 

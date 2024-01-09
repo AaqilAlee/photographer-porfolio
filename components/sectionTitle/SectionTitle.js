@@ -5,8 +5,8 @@ const SectionTitle = (props) => {
     <>
       <div className="container">
         <div className="SecTitleBox mb-3">
-          <h1 className="SecTitle text-capitalize">{props.title}</h1>
-          <p className="SecTitleBg text-uppercase">{props.subtitle}</p>
+          <h1 className="SecTitle text-capitalize font-mont">{props.title}</h1>
+          <p className="SecTitleBg text-uppercase font-mont">{props.subtitle}</p>
         </div>
       </div>
     </>

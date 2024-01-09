@@ -3,14 +3,12 @@
 }
 
 .SecTitleBg {
-  font-family: "kanit" !important;
   display: block;
   font-size: 80px;
   font-weight: 700;
   color: #ddd;
 }
 .SecTitle {
-  font-family: "kanit" !important;
   font-size: 42px !important;
   font-weight: 700;
   color: var(--theme-color);
