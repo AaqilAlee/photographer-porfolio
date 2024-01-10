@@ -20,7 +20,7 @@ const WorkGallery = () => {
   };
 
   return (
-    <section className="py-5 work_gallery">
+    <section id="gallery" className="py-5 work_gallery">
       <SectionTitle title="photo gallery" subtitle="photo gallery" />
       <div>
         <Gallery photos={photos} onClick={openLightbox} className="g_img" />

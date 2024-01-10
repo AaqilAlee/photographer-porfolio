@@ -6,6 +6,7 @@ import Blogs from "../../components/blogs/Blogs";
 import AboutMe from "../../components/aboutme/AboutMe";
 import Gallery from "../../components/gallery/WorkGallery";
 import Events from "../../components/events/Events";
+import Contact from "../../components/contact/Contact";
 
 const HomePage = () => {
   return (
@@ -18,6 +19,7 @@ const HomePage = () => {
       <Gallery/>
       <Events/>
       <Blogs/>
+      <Contact/>
       <ScrollToTop />
     </Fragment>
   );

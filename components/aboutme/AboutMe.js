@@ -8,7 +8,7 @@ import { TypeAnimation } from "react-type-animation";
 const AboutMe = () => {
   return (
     <>
-      <section className="py-5">
+      <section id="about_me" className="py-5">
         <Container>
           <Row>
             <Col lg={7}>
@@ -53,7 +53,7 @@ const AboutMe = () => {
                     data-aos="fade-up"
                     data-aos-duration="500"
                     href="#"
-                    className="me-3"
+                    className="me-3 mn_ho"
                   >
                     <div className="social_link_mn d-flex justify-content-center align-items-center">
                       <div className="social_link m-0">

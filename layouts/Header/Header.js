@@ -9,7 +9,6 @@ import { BiChevronDown } from "react-icons/bi";
 import Image from "next/image";
 import Logo from "../../public/logo/4.png";
 
-
 const HeaderOld = () => {
   const [scrollY, setScrollY] = useState(0);
   const onScroll = useCallback((event) => {
@@ -66,8 +65,6 @@ const HeaderOld = () => {
   return (
     <>
       <header>
-       
-
         {/*Logo & manu*/}
         <section id="Top" className="overbanner2">
           <Container className="px-0">
@@ -302,20 +299,22 @@ const HeaderOld = () => {
                   </div>
                 </NavDropdown> */}
 
-               
                 <Nav.Link
                   as={Link}
-                  href="/"
+                  href="#about_me"
                   className="d-flex align-items-center font-16 my-2 text-light"
+                  scroll={false}
+
                 >
                   <span className="text-capitalize position-relative after_border pb-2 sticky_text_color">
                     about me
                   </span>
                 </Nav.Link>
-                
+
                 <Nav.Link
                   as={Link}
-                  href="/"
+                  href="#gallery"
+                  scroll={false}
                   className="d-flex align-items-center font-16 my-2 text-light"
                 >
                   <span className="text-capitalize position-relative after_border pb-2 sticky_text_color">
@@ -325,8 +324,9 @@ const HeaderOld = () => {
 
                 <Nav.Link
                   as={Link}
-                  href="#blog"
+                  href="/#blog"
                   className="d-flex align-items-center font-16 my-2 text-light"
+                  scroll={false}
                 >
                   <span className="text-capitalize position-relative after_border pb-2 sticky_text_color">
                     blogs
@@ -334,7 +334,8 @@ const HeaderOld = () => {
                 </Nav.Link>
                 <Nav.Link
                   as={Link}
-                  href="/"
+                  scroll={false}
+                  href="#contact"
                   className="d-flex align-items-center font-16 my-2 text-light"
                 >
                   <span className="text-capitalize position-relative after_border pb-2 sticky_text_color">

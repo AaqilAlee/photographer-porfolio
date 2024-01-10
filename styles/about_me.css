@@ -31,10 +31,12 @@
     rgba(40, 184, 216, 1) 0%,
     rgba(253, 255, 255, 1) 100%
   );
+  margin-top: -10px;
 }
 .social_link_mn:hover .social_icons{
   color: #fff;
 }
+
 .social_icons {
   color: #666;
 }
